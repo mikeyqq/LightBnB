@@ -18,8 +18,8 @@ INSERT INTO reservations (start_date, end_date, property_id, guest_id) VALUES ('
 INSERT INTO reservations (start_date, end_date, property_id, guest_id) VALUES ('2018-05-08', '2018-12-16', 5, 5);
 
 
-INSERT INTO property_reviews (guest_id, reservation_id, property_id, rating, message) VALUES (1, 1, 1, 5, 'message');
-INSERT INTO property_reviews (guest_id, reservation_id, property_id, rating, message) VALUES (2, 2, 2, 3, 'message');
-INSERT INTO property_reviews (guest_id, reservation_id, property_id, rating, message) VALUES (3, 3, 3, 3, 'message');
-INSERT INTO property_reviews (guest_id, reservation_id, property_id, rating, message) VALUES (4, 4, 4, 4, 'message');
-INSERT INTO property_reviews (guest_id, reservation_id, property_id, rating, message) VALUES (5, 5, 5, 1, 'message');
+INSERT INTO property_reviews (guest_id, property_id, reservation_id, rating, message) VALUES (1, 1, 1, 5, 'message');
+INSERT INTO property_reviews (guest_id, property_id, reservation_id, rating, message) VALUES (2, 2, 2, 3, 'message');
+INSERT INTO property_reviews (guest_id, property_id, reservation_id, rating, message) VALUES (3, 3, 3, 3, 'message');
+INSERT INTO property_reviews (guest_id, property_id, reservation_id, rating, message) VALUES (4, 4, 4, 4, 'message');
+INSERT INTO property_reviews (guest_id, property_id, reservation_id, rating, message) VALUES (5, 5, 5, 1, 'message');
