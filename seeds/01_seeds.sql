@@ -1,5 +1,5 @@
 
-INSERT INTO users (name, email, password) VALUES ('Uduak', 'uk@gmail.com', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u.');
+INSERT INTO users (name, email, password) VALUES ('test', 'test@testing.com', 'test');
 INSERT INTO users (name, email, password) VALUES ('Kelcey', 'ky@gmail.com', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u.');
 INSERT INTO users (name, email, password) VALUES ('London', 'ln@gmail.com', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u.');
 INSERT INTO users (name, email, password) VALUES ('Duha', 'da@gmail.com', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u.');
